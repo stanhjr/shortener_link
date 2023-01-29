@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_yasg',
     'corsheaders',
-    'shortener,'
+    'shortener',
 ]
 
 MIDDLEWARE = [
@@ -133,3 +133,5 @@ SWAGGER_SETTINGS = {
         'patch'
     ],
 }
+
+HOST_NAME = 'my_host'
